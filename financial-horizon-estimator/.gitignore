@@ -1,0 +1,38 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Streamlit temporary data
+.streamlit/config.toml
+.streamlit/secrets.toml
+
+# PDF exports or temp files
+*.pdf
+*.log
+
+# Jupyter Notebook checkpoints (if you use them later)
+.ipynb_checkpoints/
+
+# VSCode settings (optional)
+.vscode/
+
+# Environment variables / secrets
+.env
+
+# Streamlit Cloud logs (if any)
+logs/
+
+# pycache in subfolders
+**/__pycache__/
